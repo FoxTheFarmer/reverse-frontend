@@ -7,14 +7,14 @@ const pools: PoolConfig[] = [
     earnToken: 'RVRS',
     quoteTokenSymbol: QuoteToken.RVRS,
     stakingTokenName: QuoteToken.RVRS,
-    stakingTokenAddress: '0x5A24E33c1F3AC55B96F818D40d0ad97F71b42658',
+    stakingTokenAddress: '0xED0B4b0F0E2c17646682fc98ACe09feB99aF3adE',
     // this is RVRS
-    quoteTokenPoolAddress: '0x5A24E33c1F3AC55B96F818D40d0ad97F71b42658',
+    quoteTokenPoolAddress: '0xED0B4b0F0E2c17646682fc98ACe09feB99aF3adE',
     // this is RVRS
-    tokenPoolAddress: '0x5A24E33c1F3AC55B96F818D40d0ad97F71b42658',
+    tokenPoolAddress: '0xED0B4b0F0E2c17646682fc98ACe09feB99aF3adE',
     contractAddress: {
-      1666700000: '0x9a50FBc4914D920Dc54aF3B4AD4Ee38F7F72b9Ae',
-      1666600000: '0x9a50FBc4914D920Dc54aF3B4AD4Ee38F7F72b9Ae',
+      1666700000: '0xC9ED8bfb89F5B5ca965AA8cEAacF75576C06211E',
+      1666600000: '0xC9ED8bfb89F5B5ca965AA8cEAacF75576C06211E',
     },
     poolCategory: PoolCategory.COMMUNITY,
     projectLink: 'https://www.tranquil.finance/',

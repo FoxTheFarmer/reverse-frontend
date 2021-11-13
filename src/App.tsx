@@ -38,6 +38,8 @@ const App: React.FC = () => {
       </NavBar>
         <Suspense fallback>
           <Switch>
+
+            {/*
             <Route path="/" exact>
             <Farms />
             </Route>
@@ -52,6 +54,8 @@ const App: React.FC = () => {
             <Route path="/stake">
               <Pools/>
             </Route>
+
+            */ }
             <Route component={NotFound} />
           </Switch>
         </Suspense>

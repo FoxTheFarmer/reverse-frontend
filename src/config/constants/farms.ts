@@ -19,8 +19,8 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'RVRS & ONE',
     lpAddresses: {
-      1666700000: '0x006d392b015d154f6580f68d659f803f0d22bcee',
-      1666600000: '0x006d392b015d154f6580f68d659f803f0d22bcee',
+      1666700000: '0xCDe0A00302CF22B3Ac367201FBD114cEFA1729b4',
+      1666600000: '0xCDe0A00302CF22B3Ac367201FBD114cEFA1729b4',
     },
     tokenSymbol: 'ONE',
     tokenAddresses: contracts.one,
@@ -45,14 +45,17 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'UST & RVRS',
     lpAddresses: {
-      1666700000: '0x513568f49e384811d7cf7e6de4daa4ddc3c4a779',
-      1666600000: '0x513568f49e384811d7cf7e6de4daa4ddc3c4a779',
+      1666700000: '0xF8838fcC026d8e1F40207AcF5ec1DA0341c37fe2',
+      1666600000: '0xF8838fcC026d8e1F40207AcF5ec1DA0341c37fe2',
     },
     tokenSymbol: 'RVRS',
     tokenAddresses: contracts.rvrs,
     quoteTokenSymbol: QuoteToken.UST,
     quoteTokenAdresses: contracts.ust,
   }
+
+
+
 ]
 
 export default farms
